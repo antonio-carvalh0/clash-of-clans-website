@@ -1,0 +1,43 @@
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+h1 {
+  font-family: var(--font-base);
+  color: var(--color-black);
+}
+p {
+  font-family: var(--font-base);
+  color: var(--color-black);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+.custom__button {
+  background-color: var(--color-orange);
+    color: var(--color-white);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border: 1px black solid;
+    outline: none;
+    cursor: pointer;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.orange {
+  color: var(--color-orange);
+}
